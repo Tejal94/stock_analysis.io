@@ -1,0 +1,166 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.page{
+    height:100%;
+    width: 100%;
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1f0246, #21013b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left,#010722, #00020f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#logo{
+    height: 8vh;
+    width: 4vw;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:1000px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .greet{
+        align-items: center;
+        width: 100%;
+    }
+
+    .navi{
+        height: 40vh;
+        display: inline-block;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+
+    #myForm{
+        display: block !important;
+
+    }
+
+    .labels{
+        width: 100% !important;
+    }
+
+    .button1{
+        width: 100% !important;
+    }
+    
+    /* [class*="col-"]{
+        width: 100%;
+    } */
+
+    #logo{
+        width: 8vh;
+    }
+}
+
+.navi{
+    background-color: transparent !important;
+    height: 10vh !important;
+    line-height: 10vh;
+}
+
+
+.greet{
+    height: 90%;
+    width: 90%;
+    /* margin: 20px; */
+    /* border: 2px solid white; */
+    /* padding-left: 30vw; */
+    background-image: url(./images/i1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    display: flex;
+}
+
+.greetCrypto{
+    height: 90%;
+    width: 90%;
+    background-image: url(./images/c1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    display: flex;
+}
+
+.greetCrypto p{
+    
+    font-size: 3rem;
+    color: white;
+}
+
+.greet p{
+    
+    font-size: 3rem;
+    color: white;
+}
+
+.content{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.labels{
+    background-color: white;
+    /* opacity: 40%; */
+    height: 6vh;
+    width: 25vw;
+    align-items: center;
+    
+}
+
+.button1{
+    height: 6vh;
+    /* line-height: 6vh; */
+    padding: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: small;
+}
+
+.scrollValues{
+    height: 4vh;
+    width: 100%;
+    /* background-color: black; */
+    /* color: yellow; */
+    font-size: small;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#marquee{
+    height: 4vh;
+    width: 95%;
+    background-color: black;
+    color: yellow;
+    font-size: small;
+}
+
+#toggle{
+    height: 4vh;
+    /* width: 7vw; */
+    display: flex;
+    align-items: center;
+    z-index: 1005;
+}
